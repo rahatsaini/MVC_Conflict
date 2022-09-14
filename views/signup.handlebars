@@ -1,0 +1,58 @@
+
+
+    
+
+{{!-- <form>
+  <div class="form-group">
+            <h3>Sign up</h3>
+            <div class="form-el">
+                <label for="password">First Name:</label>
+                <input type="text" id="first-name" placeholder="First Name">
+            </div>
+            <div class="form-el">
+                <label for="password">Last Name:</label>
+                <input type="text" id="last-name" placeholder="Last Name">
+            </div>
+            <div class="form-el">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email">
+            </div>
+            <div class="form-el">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            
+            <div class="form-el">
+                <label for="contact-number">Contact Number:</label>
+                <input type="tel" id="contact-number" >
+            </div>
+            <div class="form-el">
+                <a href='/login' class="signup-link">Log In</a>
+            </div>
+            <div class="form-el">
+                <button class="submit-btn" id="signup-submit">SUBMIT</button>
+            </div>
+        </div>
+    
+</div> --}}
+
+<form id ='signupForm'>
+  <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+   <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" required placeholder="Enter your name">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="password" required placeholder="Password">
+    <p> your password should be a combination of numbers, character and special characters like $, #, &, @.....</p>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<script src="/js/signup.js"></script>
